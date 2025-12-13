@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 My 3D Portfolio
 
-## Getting Started
+Hey! Welcome to my portfolio website. I built this to showcase my work in a way that's a bit more fun and interactive than a standard resume. It's like a little corner of the internet where you can see what I've been working on.
 
-First, run the development server:
+If you're curious about the code or want to run this yourself, you're in the right place!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ What's Inside?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This isn't just a static page. I wanted to experiment with some cool web technologies, so here's what you'll find:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **A 3D World**: When you land on the page, you'll see a 3D background. That's built with Three.js. It's interactive, so feel free to look around!
+-   **My Work**: I've got a section dedicated to my recent projects. You can click on them to learn more.
+-   **Smooth Navigation**: The navigation bar floats and follows you as you scroll, making it easy to get around.
+-   **Contact Me**: There's a simple form at the bottom if you want to reach out.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Under the Hood (For the Techies)
 
-## Learn More
+If you're a developer (or just aspiring to be one), here's the tech stack I chose and why:
 
-To learn more about Next.js, take a look at the following resources:
+-   **Next.js 16**: My go-to framework for building fast, modern React apps.
+-   **Tailwind CSS**: For styling. It handles all the colors, spacing, and responsive layout without me having to write a million CSS files.
+-   **Three.js & React Three Fiber**: This is the magic behind the 3D graphics. It lets me put 3D objects right into the website.
+-   **Framer Motion**: Gives everything those smooth animations when elements appear or move.
+-   **TypeScript**: Keeps my code safe and less prone to silly bugs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 How to Run This on Your Computer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Want to see this running locally? Follow these steps:
 
-## Deploy on Vercel
+1.  **Grab the Code**: First, you'll need to download (clone) this repository.
+2.  **Install the Tools**: Open your terminal (command prompt) in the project folder and run:
+    ```bash
+    npm install
+    ```
+    (This downloads all the libraries I used like React, Next.js, etc.)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Start the Engine**: Once that's done, type:
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  **View It**: Open your web browser and go to `http://localhost:3000`. You should see the site live!
+
+## 📂 Where is Everything?
+
+If you're looking through the files:
+
+-   `src/app`: This is where the main pages live. `page.tsx` is the homepage.
+-   `src/components`: These are the building blocks, like the `Hero` section, the `Grid`, and the `ContactForm`.
+-   `src/lib`: Just some helper code to make things run smoothly.
+
+## 👋 Say Hi!
+
+If you use this code or just like the site, let me know! I'm always open to feedback or just a friendly chat.
